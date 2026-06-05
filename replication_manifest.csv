@@ -1,0 +1,10 @@
+file,purpose
+code/run_replication.py,Regenerates all CSV outputs and theorem checks.
+outputs/table1_base_topsis.csv,Replicates manuscript Table 1.
+outputs/table2_modified_topsis.csv,Replicates manuscript Table 2.
+outputs/table3_LHL_obstruction.csv,Replicates manuscript Table 3.
+outputs/k_level_thresholds.csv,Checks Corollary 2 ordered K-level thresholds.
+outputs/stability_radius_check.csv,Checks Proposition 1 stability radius.
+outputs/alignment_score_check.csv,Checks Corollary 1 alignment score identity.
+outputs/vikor_type_loss_scores.csv,Checks Corollary 3 VIKOR-type monotone loss scores.
+outputs/theorem_checks.json,Compact trace of all Boolean and threshold checks.

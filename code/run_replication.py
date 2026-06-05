@@ -1,10 +1,7 @@
 #!/usr/bin/env python3
 """
 Replication script for:
-A Three-Level Diagnostic Hierarchy for TOPSIS Threshold Representability on Ordered Alternatives
-
-This script regenerates the numerical tables and diagnostic checks reported in
-Section 7 of the manuscript. It uses only the Python standard library.
+Threshold diagnostics for TOPSIS on ordered alternatives
 
 Outputs are written to ../outputs by default when run from the package root:
     python code/run_replication.py
@@ -175,7 +172,7 @@ def vikor_type_loss_scores(X: Matrix, w: Vector, benefit_flags: List[bool], alph
 
 def write_csv(path: Path, rows: List[Dict[str, Any]], fieldnames: List[str]) -> None:
     with path.open("w", newline="", encoding="utf-8") as f:
-        writer = csv.DictWriter(f, fieldnames=fieldnames)
+        writer = csv.DictWriter(f, fieldnames=fieldnames, lineterminator="\n")
         writer.writeheader()
         for row in rows:
             cleaned = {}
