@@ -1,5 +1,3 @@
 quantity,value,meaning
-mu_X,1.0000000000,minimum adjacent monotone gap
+mu_X,1,minimum adjacent monotone gap
 rho_SC,0.5000000000,entrywise stability radius
-epsilon_safe_example,0.4900000000,safe when epsilon < mu/2
-epsilon_adversarial_example,0.5100000000,can break the smallest gap when epsilon > mu/2

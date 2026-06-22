@@ -1,0 +1,4 @@
+case,weighted_repair_radius,weighted_worst_pair,tau_rule,all_cutoffs_valid
+Synthetic base,0.0000000000,,tau_q = 1 + 0.05 q,True
+Modified matrix,0.0000000000,,tau_q = 1 + 0.05 q,True
+"L,H,L obstruction",1.5384615385,"(1,2)",tau_q=(b_q-a_q)/2 from triangular fuzzy scores,False

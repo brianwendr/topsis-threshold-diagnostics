@@ -1,0 +1,53 @@
+{
+  "base_threshold_c0_0_55": 5,
+  "modified_threshold_c0_0_55": 5,
+  "base_C_nondecreasing": true,
+  "base_invalid_cutoff_spectrum_empty": true,
+  "modified_invalid_cutoff_spectrum_empty": true,
+  "LHL_max_inversion_depth": 0.19999999999999996,
+  "LHL_monotone_repair_radius": 0.09999999999999998,
+  "LHL_weighted_repair_radius_from_triangular_fuzzy_tolerances": 1.538461538461538,
+  "modified_C_nondecreasing": true,
+  "base_ratio_nondecreasing": true,
+  "modified_ratio_nondecreasing": true,
+  "base_matrix_SC_margin_mu": 1,
+  "base_SC_stability_radius": 0.5,
+  "LHL_certificate_at_c0_0_55": [
+    1,
+    2
+  ],
+  "K_level_thresholds_for_0_35_0_70": [
+    3,
+    6
+  ],
+  "vikor_Q_loss_nonincreasing": true,
+  "open_data_geometry_summary": [
+    {
+      "norm": "p1",
+      "C_nondecreasing": false,
+      "threshold_at_0_55": 5,
+      "accepted_count_at_0_55": 3,
+      "threshold_meaning": "suffix starts at q=5",
+      "HL_certificate_at_0_55": "(5,6)",
+      "interpretation": "not thresholdable at c0=0.55"
+    },
+    {
+      "norm": "p2",
+      "C_nondecreasing": false,
+      "threshold_at_0_55": 11,
+      "accepted_count_at_0_55": 1,
+      "threshold_meaning": "only q=11 accepted",
+      "HL_certificate_at_0_55": "",
+      "interpretation": "valid at c0=0.55 but not globally monotone"
+    },
+    {
+      "norm": "pinf",
+      "C_nondecreasing": false,
+      "threshold_at_0_55": 12,
+      "accepted_count_at_0_55": 0,
+      "threshold_meaning": "empty acceptance set",
+      "HL_certificate_at_0_55": "",
+      "interpretation": "valid by empty-set sentinel; no accepted alternative at c0=0.55"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+scenario,tolerance_source,interpretation,expected_effect
+Uniform tolerance,same support width for all alternatives,equal score reliability,baseline repair comparison
+Fuzzy norm-envelope tolerance,"triangular score envelope over p=1,2,infinity",heterogeneous norm-sensitivity spread,main full fuzzy-score audit
+Conservative tolerance,half of fuzzy norm-envelope support,stricter score reliability requirement,larger R_tau values
+Liberal tolerance,twice the fuzzy norm-envelope support,more permissive score reliability band,smaller R_tau values

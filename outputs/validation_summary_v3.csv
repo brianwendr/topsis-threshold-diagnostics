@@ -1,0 +1,6 @@
+case,method,score_monotone,invalid_cutoff_spectrum,max_inversion_depth,audit_decision
+Synthetic base,TOPSIS,Yes,Empty,0,All cutoffs valid
+Modified matrix,TOPSIS,Yes after ratio audit,Empty,0,Matrix test fails; ratio test certifies
+"L,H,L obstruction",Generic score,No,"(0.40, 0.60]",0.20,Cutoffs in this interval invalid
+UCI geometry profile p=1,TOPSIS,No,"Includes (0.3504, 0.5624]",0.2120,c=0.55 invalid
+UCI geometry profile p=2,TOPSIS,No,Nonempty but below c=0.55,0.1408,"c=0.55 valid, not globally monotone"

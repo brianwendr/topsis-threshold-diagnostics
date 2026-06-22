@@ -1,0 +1,4 @@
+case,weighted_repair_radius,weighted_worst_pair,tau_rule,all_cutoffs_valid
+UCI geometry profile p1,4.8477714892,"(4,7)",tau_q=(b_q-a_q)/2 from the 12-profile triangular fuzzy score envelope,False
+UCI geometry profile p2,4.9518031233,"(4,7)",tau_q=(b_q-a_q)/2 from the 12-profile triangular fuzzy score envelope,False
+UCI geometry profile pinf,6.4220994817,"(4,7)",tau_q=(b_q-a_q)/2 from the 12-profile triangular fuzzy score envelope,False

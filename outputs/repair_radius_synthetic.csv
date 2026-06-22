@@ -1,0 +1,4 @@
+case,max_inversion_depth,repair_radius,worst_pair,all_cutoffs_valid
+Synthetic base,0.0000000000,0.0000000000,,True
+Modified matrix,0.0000000000,0.0000000000,,True
+"L,H,L obstruction",0.2000000000,0.1000000000,"(1,2)",False

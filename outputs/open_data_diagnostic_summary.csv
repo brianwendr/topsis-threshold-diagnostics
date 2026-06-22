@@ -1,0 +1,4 @@
+norm,C_nondecreasing,threshold_at_0_55,accepted_count_at_0_55,threshold_meaning,HL_certificate_at_0_55,interpretation
+p1,False,5,3,suffix starts at q=5,"(5,6)",not thresholdable at c0=0.55
+p2,False,11,1,only q=11 accepted,,valid at c0=0.55 but not globally monotone
+pinf,False,12,0,empty acceptance set,,valid by empty-set sentinel; no accepted alternative at c0=0.55

@@ -1,0 +1,4 @@
+case,max_inversion_depth,repair_radius,worst_pair,all_cutoffs_valid
+UCI geometry profile p1,0.2119551670,0.1059775835,"(5,6)",False
+UCI geometry profile p2,0.1407771329,0.0703885665,"(5,6)",False
+UCI geometry profile pinf,0.1218288102,0.0609144051,"(0,7)",False
